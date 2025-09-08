@@ -11,11 +11,11 @@ from langchain.agents.agent_types import AgentType
 DB_CONFIG = {
     "dbname": "course_db",
     "user": "postgres",       # change to your postgres username
-    "password": "newpassword",   # change to your postgres password
+    "password": "password",   # change to your postgres password
     "host": "localhost",
     "port": "5432"
 }
-GROQ_API_KEY = "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"  # set your Groq API key
+GROQ_API_KEY = "GROQ_API"  # set your Groq API key
 client = Groq(api_key=GROQ_API_KEY)
 
 # ---------------- DB CONNECTION ----------------
